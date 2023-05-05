@@ -1,3 +1,7 @@
+use crate::simple::fibonacci;
+pub mod simple;
+
 fn main() {
-    println!("Hello, world!");
+    let result = fibonacci(6);
+    println!("The fibonacci value of {result}");
 }
