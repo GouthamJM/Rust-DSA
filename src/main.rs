@@ -1,9 +1,9 @@
-use crate::simple::rect_frame;
 
+use crate::simple::create_acronym;
 
 pub mod simple;
 
 fn main() {
-    let v  = vec!["Hello","World","This","is","in","a","frame"];
-    rect_frame(v)
+    let _val = create_acronym("Looks good to me");
+    print!("The acronlym of Looks good to me is {_val}")
 }
